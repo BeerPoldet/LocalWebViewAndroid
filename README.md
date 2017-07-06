@@ -1,4 +1,4 @@
-# LocalWebViewAndroid
+# Local Web View Android
 
 Example project for local (offline) web view on android 
 in this example it illustrates:
@@ -6,6 +6,7 @@ in this example it illustrates:
 2. how to interface between javascript on web view to android.
 3. basic example of accessing "asset" directory on android via web view.
 
+___
 References: 
-https://developer.android.com/guide/webapps/webview.html
-https://stackoverflow.com/questions/6127696/android-local-image-in-webview
+- https://developer.android.com/guide/webapps/webview.html
+- https://stackoverflow.com/questions/6127696/android-local-image-in-webview
