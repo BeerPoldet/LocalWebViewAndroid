@@ -1,0 +1,23 @@
+<h1>Hello World</h1>
+<h2>This is Web View</h2>
+<div>
+    <label for="firstName">First Name</label>
+    <input type="text" name="firstName" id="firstName" >
+</div>
+<div>
+    <label for="lastName">Last Name</label>
+    <input type="text" name="firstName" id="lastName" >
+</div>
+<button onclick="formDidSubmitted()">Submit</button>
+
+<div>
+    <image style="width: 100%" src="ic_launcher.png"></image>
+</div>
+
+<script type="text/javascript">
+    function formDidSubmitted() {
+        var firstName = document.getElementById('firstName').value;
+        var lastName = document.getElementById('lastName').value;
+        androidInterface.formDidSubmitted(firstName, lastName);
+    }
+</script>
